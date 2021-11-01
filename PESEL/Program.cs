@@ -6,7 +6,7 @@ namespace Pesel
     {
         static void Main(string[] args)
         {
-            string n="01251011117";
+            string n= Console.Readline();
             int dlugosc = n.Length;
             Console.WriteLine(dlugosc);
             if (dlugosc != 11)
