@@ -14,7 +14,6 @@ namespace forowanie10
             int a;
             int liczba = 0;
             a = Convert.ToInt32(Console.ReadLine());
-            //for (i=0;i<=a;i++)
             {
                 for (liczba = 0; liczba < a * 7; liczba += 7)
                 {
